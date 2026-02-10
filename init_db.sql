@@ -1,6 +1,7 @@
 -- Cloud Cost Anomaly Detection Database Schema
 -- This file runs automatically when PostgreSQL container starts
 -- Create database if it doesn't exist
+
 SELECT 'CREATE DATABASE cloud_cost'
 WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'cloud_cost')\gexec
 
