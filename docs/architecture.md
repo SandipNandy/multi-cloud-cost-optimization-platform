@@ -1,3 +1,7 @@
+# System Architecture
+
+## Overview
+```mermaid
 graph TB
     subgraph "Cloud Providers"
         A[AWS Cost Explorer]
