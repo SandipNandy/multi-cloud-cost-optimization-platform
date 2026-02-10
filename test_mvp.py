@@ -55,6 +55,7 @@ def test_api():
     except Exception as e:
         print(f"   ❌ Error fetching anomalies: {e}")
     
+    
     # Test 4: Get statistics
     print("5. Getting statistics...")
     try:
