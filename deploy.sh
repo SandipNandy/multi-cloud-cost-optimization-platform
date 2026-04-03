@@ -4,6 +4,7 @@
 set -e
 
 echo "🚀 Multi-Cloud Cost Anomaly Detection MVP"
+
 echo "=========================================="
 
 # Colors for output
