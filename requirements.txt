@@ -6,6 +6,7 @@ uvicorn[standard]
 psycopg2-binary
 
 boto3
+
 azure-identity
 azure-mgmt-costmanagement
 azure-mgmt-compute
