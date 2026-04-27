@@ -7,6 +7,7 @@ import json
 
 API_URL = "http://localhost:8000"
 
+
 def test_api():
     """Test the MVP API endpoints"""
     
