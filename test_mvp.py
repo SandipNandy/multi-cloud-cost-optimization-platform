@@ -10,7 +10,6 @@ def test_api():
     """Test the MVP API endpoints"""
     
     print("🧪 Testing Cloud Cost Anomaly Detection MVP...")
-    
     # Test 1: Health check
     print("1. Testing health check...")
     try:
