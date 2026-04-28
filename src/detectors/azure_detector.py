@@ -1,5 +1,4 @@
 from azure.identity import DefaultAzureCredential
-
 from azure.mgmt.compute import ComputeManagementClient
 
 from azure.mgmt.costmanagement import CostManagementClient
