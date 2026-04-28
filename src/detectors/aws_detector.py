@@ -4,7 +4,6 @@ from .base_detector import BaseDetector
 import os
 
 
-
 class AWSDetector(BaseDetector):
     """Real-time AWS cost anomaly detector"""
     
