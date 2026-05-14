@@ -13,6 +13,7 @@ WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'cloud_cost')\gexec
 CREATE TABLE IF NOT EXISTS cost_anomalies (
     
     id SERIAL PRIMARY KEY,
+    
     cloud_provider VARCHAR(10) NOT NULL,
     resource_id VARCHAR(255) NOT NULL,
     resource_type VARCHAR(50) NOT NULL,
