@@ -3,7 +3,6 @@
 -- Create database if it doesn't exist
 
 SELECT 'CREATE DATABASE cloud_cost'
-    
 WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'cloud_cost')\gexec
 
 \c cloud_cost;
