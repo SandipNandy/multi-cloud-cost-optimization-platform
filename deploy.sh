@@ -3,7 +3,6 @@
 # Cloud Cost Anomaly Detection MVP - One-Click Deployment
 
 set -e
-
 echo "🚀 Multi-Cloud Cost Anomaly Detection MVP"
 
 echo "=========================================="
