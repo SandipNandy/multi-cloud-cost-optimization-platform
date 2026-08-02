@@ -9,7 +9,6 @@ WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'cloud_cost')\gexec
 \c cloud_cost;
 
 
-
 -- Anomalies table
 CREATE TABLE IF NOT EXISTS cost_anomalies (
     
