@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Cloud Cost Anomaly Detection MVP - One-Click Deployment
 
