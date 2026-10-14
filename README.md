@@ -1,4 +1,3 @@
-
 # ☁️ Cloud Cost Anomaly Detection Platform
 
 [![Docker](https://img.shields.io/badge/docker-available-blue)](https://www.docker.com/)
