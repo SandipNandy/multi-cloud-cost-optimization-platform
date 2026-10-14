@@ -2,6 +2,7 @@
 -- Cloud Cost Anomaly Detection Database Schema
 
 -- This file runs automatically when PostgreSQL container starts
+
 -- Create database if it doesn't exist
 
 
