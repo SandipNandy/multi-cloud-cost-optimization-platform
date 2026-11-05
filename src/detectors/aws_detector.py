@@ -1,6 +1,7 @@
 import boto3
 
 from datetime import datetime, timedelta
+
 from .base_detector import BaseDetector
 import os
 
