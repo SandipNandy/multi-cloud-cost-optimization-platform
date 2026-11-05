@@ -5,6 +5,7 @@ from azure.mgmt.compute import ComputeManagementClient
 from azure.mgmt.costmanagement import CostManagementClient
 
 from .base_detector import BaseDetector
+
 import os
 
 class AzureDetector(BaseDetector):
